@@ -160,8 +160,40 @@ a {
 .search-icon img {
   height: 100%;
 }
+/* main */
+
+/* LEFT SIDEBAR */
+
 .grid-coloum1 {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 50px;
+  color: white;
+}
+
+.sidebar {
+  width: 100%;
+}
+
+.sidebar > figure > img {
+  width: 100%;
+}
+.caption {
+  font-size: 10px;
+  width: 100%;
+}
+
+.asidebar {
+  background-color: red;
+  height: 70px;
+}
+/* .grid-coloum1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
   width: 50px;
 }
 .grid-row1 {
@@ -170,9 +202,9 @@ a {
 .sidebar {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
+
   width: 50px;
-  height: 100%;
+  min-height: 100vh;
   background-color: black;
   padding: 0.5rem 0.75rem;
   color: white;
@@ -196,9 +228,11 @@ a {
   margin: 0 auto;
   height: 413.8px;
 }
-/* .left-main {
-  height: 413.8px;
-} */
+.main-img {
+  height: 100%;
+}
+
+
 .left-main h2 {
   background-color: var(--whiteBackground);
   margin: 0;
@@ -225,8 +259,10 @@ a {
 }
 .main {
   margin-top: 30px;
-  max-width: 900px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 90vw;
+
   padding: 0;
 }
 
@@ -250,10 +286,39 @@ a {
 
 .grid1 img {
   height: 100%;
+} */
+
+/* second section */
+/* .main-second {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  min-width: 90vw;
+  max-width: 965px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
 }
+.second {
+  
+  width: 100%;
+}
+.second img {
+  margin-bottom: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+} */
 
 /* footer */
+
 #footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: black;
   color: white;
   text-align: center;
